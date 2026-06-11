@@ -17,7 +17,7 @@ class Parsing:
         n_lines = []
         for i, line in enumerate(lines, 1):
             if line and not line.startswith("#") and not line.isspace():
-                n_lines.append((i, line))
+                n_lines.append((i, line.split("#")[0]))
         return n_lines
 
     def __parse_nb_drones(self, line: tuple[int, str]) -> bool:

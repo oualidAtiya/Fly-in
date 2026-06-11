@@ -1,5 +1,0 @@
-allow type like this -0 +50 done
-nb_drones should not be 0 done
-zone at start and end should not be blocked done
-can't connection be like roof1-roof1 done 
-at least there's one conection done
